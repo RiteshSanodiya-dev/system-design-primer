@@ -2,7 +2,7 @@
 
 ## Memory Management and Data Structures
 
-### 1. **LRU Cache**
+### 1. **LRU Cache** `Memory Management`
    - **Description**: Implement a Least Recently Used (LRU) cache to efficiently manage cache entries. The cache should discard the least recently used items when it exceeds its capacity.
    - **Key Concepts**: Hash maps, doubly linked lists, cache management.
 
