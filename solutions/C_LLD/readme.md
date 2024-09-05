@@ -71,19 +71,15 @@
    - **Description**: Implement a self-balancing binary search tree to optimize lookup, insertion, and deletion operations.
    - **Key Concepts**: Tree balancing, binary search trees, rotations.
 
----
-
-## Timer-Related LLD Questions
-
-### 18. **Timer Wheel Implementation**
+### 18. **Timer Wheel Implementation** ``timers``
    - **Description**: Design a timer wheel to efficiently manage and schedule multiple timers with low overhead.
    - **Key Concepts**: Circular buffers, hashing, time slots.
 
-### 19. **High-Resolution Timer Scheduler**
+### 19. **High-Resolution Timer Scheduler** ``timers``
    - **Description**: Create a high-resolution timer scheduler to handle timers with microsecond precision.
    - **Key Concepts**: Priority queues, binary heaps, interrupt handling.
 
-### 20. **Timer Queue Implementation**
+### 20. **Timer Queue Implementation** ``timers``
    - **Description**: Implement a timer queue to manage timers, ensuring correct order of expiration and handling simultaneous expirations.
    - **Key Concepts**: Linked lists, min-heaps, callback functions.
 
@@ -91,19 +87,19 @@
    - **Description**: Implement `setitimer` and signal handling to create a timer that sends signals like `SIGALRM`.
    - **Key Concepts**: Signal handling, interrupt-driven design, system calls.
 
-### 22. **Debounce Mechanism Using Timers**
+### 22. **Debounce Mechanism Using Timers** ``timers``
    - **Description**: Design a debounce mechanism to handle successive events (e.g., button presses) using timers.
    - **Key Concepts**: Event filtering, timer resets.
 
-### 23. **Timeout Handling in Network Protocols**
+### 23. **Timeout Handling in Network Protocols** ``timers``
    - **Description**: Implement timeout mechanisms in network protocols (e.g., TCP retransmission) to manage retries and timeouts.
    - **Key Concepts**: Networking protocols, timeouts, state machines.
 
-### 24. **Delayed Task Executor**
+### 24. **Delayed Task Executor** ``timers``
    - **Description**: Create a delayed task executor that schedules tasks after a specified delay.
    - **Key Concepts**: Multithreading, synchronization, task scheduling.
 
-### 25. **Rate Limiter with Token Bucket Using Timers**
+### 25. **Rate Limiter with Token Bucket Using Timers** ``timers``
    - **Description**: Implement a rate limiter using the token bucket algorithm, where tokens are refilled at regular intervals using timers.
    - **Key Concepts**: Token bucket algorithm, rate limiting, timers.
 
@@ -119,7 +115,7 @@
    - **Description**: Develop an alarm management system where alarms can be set, modified, and triggered at specific times.
    - **Key Concepts**: Priority queues, event handling.
 
-### 29. **Watchdog Timer**
+### 29. **Watchdog Timer** ``timers``
    - **Description**: Implement a watchdog timer that monitors system health and resets the system if it becomes unresponsive.
    - **Key Concepts**: System monitoring, reset mechanisms, timers.
 
