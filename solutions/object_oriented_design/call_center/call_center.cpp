@@ -37,6 +37,9 @@ enum class CallState {
 
 class Call; // Forward declaration
 class CallCenter; // Forward declaration
+/* Forward declaration in C++ is a declaration of a class, function, or variable that
+ * tells the compiler that something exists before it is fully defined.
+ */
 
 // Abstract base class for Employee
 class Employee {
