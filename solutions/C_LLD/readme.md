@@ -26,7 +26,7 @@
    - **Description**: Convert a stack to a queue using basic stack operations.
    - **Key Concepts**: Queue and stack operations, data manipulation.
 
-### 7. **Synchronization Problems**
+### 7. **Synchronization Problems** ``multithreading_synchronization``
    - **a. Readers-Writers Problem**: Design a solution for managing shared resource access between multiple readers and writers.
    - **b. Producer-Consumer Problem**: Implement a synchronization mechanism to handle a shared buffer between producers and consumers.
    - **Key Concepts**: Semaphores, mutexes, concurrency, multi-threading.
