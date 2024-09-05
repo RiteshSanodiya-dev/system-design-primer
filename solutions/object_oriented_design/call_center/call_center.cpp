@@ -1,7 +1,6 @@
 /*
  * This is Equivalent C++ code for existing pythone programe for call center problem.
- * problem description for this can be seen at follwing :
- * https://github.com/RiteshSanodiya-dev/system-design-primer/blob/master/solutions/object_oriented_design/call_center/call_center_problem.md
+ * problem description for this can be seen at : call_center_problem.md
  * 
  * Explanation:
  * The Employee class is abstract (pure virtual function escalateCall()), and it serves as the base class for Operator,
