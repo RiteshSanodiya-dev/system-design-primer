@@ -134,7 +134,7 @@
 
 ---
 
-<span style="font-size: small; color: gray;">
+<span style="font-size: x-small; color: gray;">
 1: lru 2: heap 3: circular ds 4: malloc 5: queue to stack 6: stack to queue 7: timer related program 8: different synchronisation problems (readers writers, producer consumer) <br/>
 
 memory pool implementation implementing your own memcpy design a thread pool semaphore and mutex usage in multi-threaded applications implementing a garbage collector fixed-size block allocation (slab allocation) cache simulation atomic operations and lock-free data structures priority queue implementation bounded buffer problem custom memory allocator with free and realloc double buffering for concurrent read/write operations <br/>
