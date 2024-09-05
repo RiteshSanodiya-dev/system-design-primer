@@ -6,23 +6,23 @@
    - **Description**: Implement a Least Recently Used (LRU) cache to efficiently manage cache entries. The cache should discard the least recently used items when it exceeds its capacity.
    - **Key Concepts**: Hash maps, doubly linked lists, cache management.
 
-### 2. **Heap Implementation**
+### 2. **Heap Implementation** ``Memory Management``
    - **Description**: Implement a binary heap for efficient priority queue management, supporting both min-heaps and max-heaps.
    - **Key Concepts**: Binary trees, heap operations, sorting.
 
-### 3. **Circular Data Structures**
+### 3. **Circular Data Structures** ``data_structures``
    - **Description**: Implement circular data structures like circular queues or circular linked lists to manage bounded buffers or cyclic access patterns.
    - **Key Concepts**: Circular buffers, pointers, queue management.
 
-### 4. **Malloc Implementation**
+### 4. **Malloc Implementation** ``Memory Management``
    - **Description**: Implement your own version of `malloc` and `free` for dynamic memory allocation.
    - **Key Concepts**: Memory management, heap allocation, memory fragmentation.
 
-### 5. **Queue to Stack Conversion**
+### 5. **Queue to Stack Conversion** ``data_structures``
    - **Description**: Convert a queue to a stack using basic queue operations.
    - **Key Concepts**: Stack and queue operations, data manipulation.
 
-### 6. **Stack to Queue Conversion**
+### 6. **Stack to Queue Conversion** ``data_structures``
    - **Description**: Convert a stack to a queue using basic stack operations.
    - **Key Concepts**: Queue and stack operations, data manipulation.
 
@@ -31,15 +31,15 @@
    - **b. Producer-Consumer Problem**: Implement a synchronization mechanism to handle a shared buffer between producers and consumers.
    - **Key Concepts**: Semaphores, mutexes, concurrency, multi-threading.
 
-### 8. **Memory Pool Allocation**
+### 8. **Memory Pool Allocation** ``Memory Management``
    - **Description**: Design a memory pool that allocates and deallocates fixed-size memory blocks to optimize memory usage.
    - **Key Concepts**: Fixed-size block allocation, memory pooling, free lists.
 
-### 9. **Hash Map Design**
+### 9. **Hash Map Design** ``data_structures``
    - **Description**: Design a hash map with efficient collision handling techniques like chaining or open addressing.
    - **Key Concepts**: Hashing, collision resolution, dynamic memory.
 
-### 10. **Bit Bucket Allocator**
+### 10. **Bit Bucket Allocator** ``Memory Management``
    - **Description**: Design a bit bucket allocator to manage memory efficiently in fixed-size blocks.
    - **Key Concepts**: Memory allocation, bit manipulation, efficiency.
 
@@ -63,11 +63,11 @@
    - **Description**: Simulate a cache system with different eviction policies like LRU, FIFO, etc.
    - **Key Concepts**: Cache management, eviction policies, memory access.
 
-### 16. **Garbage Collection Algorithm**
+### 16. **Garbage Collection Algorithm** ``Memory Management``
    - **Description**: Design a simple mark-and-sweep garbage collection algorithm.
    - **Key Concepts**: Memory management, garbage collection, mark-and-sweep.
 
-### 17. **Red-Black Tree / AVL Tree**
+### 17. **Red-Black Tree / AVL Tree** ``data_structures``
    - **Description**: Implement a self-balancing binary search tree to optimize lookup, insertion, and deletion operations.
    - **Key Concepts**: Tree balancing, binary search trees, rotations.
 
