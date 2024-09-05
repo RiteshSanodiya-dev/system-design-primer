@@ -1,13 +1,18 @@
 /*
  * This is Equivalent C++ code for existing pythone programe for call center problem.
+ * problem description for this can be seen at follwing :
+ * https://github.com/RiteshSanodiya-dev/system-design-primer/blob/master/solutions/object_oriented_design/call_center/call_center_problem.md
  * 
  * Explanation:
- * The Employee class is abstract (pure virtual function escalateCall()), and it serves as the base class for Operator, Supervisor, and Director.
+ * The Employee class is abstract (pure virtual function escalateCall()), and it serves as the base class for Operator,
+ * Supervisor, and Director.
  * The Rank and CallState enums represent the employee rank and call state, respectively.
  * The CallCenter class handles dispatching calls to the appropriate employees based on their rank.
  * The use of STL containers like vector and deque mimics Python's lists and deque.
- * Exception handling (throw std::runtime_error) is used in the Director class's escalateCall method to enforce that directors cannot escalate calls.
- * This C++ implementation captures the essential features of the original Python code, including inheritance, polymorphism, and data encapsulation.
+ * Exception handling (throw std::runtime_error) is used in the Director class's escalateCall method to enforce that directors
+ * cannot escalate calls.
+ * This C++ implementation captures the essential features of the original Python code, including inheritance, polymorphism, and
+ * data encapsulation.
 */
 
 #include <iostream>
