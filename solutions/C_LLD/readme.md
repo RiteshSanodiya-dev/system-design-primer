@@ -148,3 +148,17 @@ timer-related lld interview questions implement a timer wheel description: desig
 </span>
 
 ---
+
+<span style="font-size: x-small; color: gray;">
+1: lru 2: heap 3: circular ds 4: malloc 5: queue to stack 6: stack to queue 7: timer related program 8: different synchronisation problems (readers writers, producer consumer) <br/>
+
+memory pool implementation implementing your own memcpy design a thread pool semaphore and mutex usage in multi-threaded applications implementing a garbage collector fixed-size block allocation (slab allocation) cache simulation atomic operations and lock-free data structures priority queue implementation bounded buffer problem custom memory allocator with free and realloc double buffering for concurrent read/write operations <br/>
+
+here are some additional c-related low-level design (lld) questions, including topics you mentioned: <br/>
+
+hash map design a hash map in c with efficient collision handling (chaining or open addressing). bit bucket allocator design a bit allocator that efficiently manages memory in fixed-size blocks. memory pool allocation design a memory pool that allocates and deallocates fixed-size memory blocks. custom memory allocator implement your own version of malloc and free to manage memory manually. double-ended queue (deque) implement a deque (double-ended queue) using an array or linked list. ring buffer (circular buffer) implement a circular buffer for data storage, including reading and writing functionality. trie (prefix tree) implement a trie data structure to handle dynamic prefix-based searching. reference counting implement reference counting for managing object lifetimes in manual memory management. garbage collection algorithm design a simple mark-and-sweep garbage collector. red-black tree or avl tree implement a self-balancing binary search tree for efficient lookups.
+
+timer-related lld interview questions implement a timer wheel description: design a timer wheel data structure to efficiently manage and schedule multiple timers. the timer wheel should handle timer additions, cancellations, and expirations with minimal overhead. key concepts: circular buffers, hashing, time slots, efficient lookup and insertion. high-resolution timer scheduler description: create a high-resolution timer scheduler that can handle timers with microsecond precision. ensure that the scheduler can manage a large number of concurrent timers without significant performance degradation. key concepts: priority queues, binary heaps, precision timing, interrupt handling. timer queue implementation description: implement a timer queue that supports adding, removing, and executing timers based on their expiration times. the queue should process timers in the correct order and handle edge cases like simultaneous expirations. key concepts: linked lists, min-heaps, event-driven programming, callback functions.
+...
+</span>
+
