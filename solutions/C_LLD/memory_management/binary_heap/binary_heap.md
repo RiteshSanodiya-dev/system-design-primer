@@ -60,13 +60,13 @@ We use a struct `Heap` to represent the heap. It contains:
 Let's consider inserting elements into a **min-heap**. Initially, the heap is empty. After inserting elements `10, 20, 5, 3, 7`, the heap looks like:
 
 
-
+```
          3
        /   \
      7       5
    /  \
  10    20
- 
+ ```
 
 
 
