@@ -33,7 +33,7 @@
    - **Key Concepts**: Queue and stack operations, data manipulation.
    - **Solution**: [GitHub Repository tbd]()
 
-7. **Synchronization Problems** ``multithreading_synchronization``
+7. **Synchronization Problems** [`multithreading_synchronization`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/multithreading_synchronization)
    - **a. Readers-Writers Problem**: Design a solution for managing shared resource access between multiple readers and writers.
    - **b. Producer-Consumer Problem**: Implement a synchronization mechanism to handle a shared buffer between producers and consumers.
    - **Key Concepts**: Semaphores, mutexes, concurrency, multi-threading.
