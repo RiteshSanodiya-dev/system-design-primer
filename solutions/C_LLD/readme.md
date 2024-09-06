@@ -89,17 +89,17 @@
    - **Key Concepts**: Tree balancing, binary search trees, rotations.
    - **Solution**: [GitHub Repository tbd]()
 
-18. **Timer Wheel Implementation** ``timers``
+18. **Timer Wheel Implementation** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Design a timer wheel to efficiently manage and schedule multiple timers with low overhead.
    - **Key Concepts**: Circular buffers, hashing, time slots.
    - **Solution**: [GitHub Repository tbd]()
 
-19. **High-Resolution Timer Scheduler** ``timers``
+19. **High-Resolution Timer Scheduler** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Create a high-resolution timer scheduler to handle timers with microsecond precision.
    - **Key Concepts**: Priority queues, binary heaps, interrupt handling.
    - **Solution**: [GitHub Repository tbd]()
 
-20. **Timer Queue Implementation** ``timers``
+20. **Timer Queue Implementation** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Implement a timer queue to manage timers, ensuring correct order of expiration and handling simultaneous expirations.
    - **Key Concepts**: Linked lists, min-heaps, callback functions.
    - **Solution**: [GitHub Repository tbd]()
@@ -109,22 +109,22 @@
    - **Key Concepts**: Signal handling, interrupt-driven design, system calls.
    - **Solution**: [GitHub Repository tbd]()
 
-22. **Debounce Mechanism Using Timers** ``timers``
+22. **Debounce Mechanism Using Timers** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Design a debounce mechanism to handle successive events (e.g., button presses) using timers.
    - **Key Concepts**: Event filtering, timer resets.
    - **Solution**: [GitHub Repository tbd]()
 
-23. **Timeout Handling in Network Protocols** ``timers``
+23. **Timeout Handling in Network Protocols** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Implement timeout mechanisms in network protocols (e.g., TCP retransmission) to manage retries and timeouts.
    - **Key Concepts**: Networking protocols, timeouts, state machines.
    - **Solution**: [GitHub Repository tbd]()
 
-24. **Delayed Task Executor** ``timers``
+24. **Delayed Task Executor** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Create a delayed task executor that schedules tasks after a specified delay.
    - **Key Concepts**: Multithreading, synchronization, task scheduling.
    - **Solution**: [GitHub Repository tbd]()
 
-25. **Rate Limiter with Token Bucket Using Timers** ``timers``
+25. **Rate Limiter with Token Bucket Using Timers** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Implement a rate limiter using the token bucket algorithm, where tokens are refilled at regular intervals using timers.
    - **Key Concepts**: Token bucket algorithm, rate limiting, timers.
    - **Solution**: [GitHub Repository tbd]()
@@ -144,7 +144,7 @@
    - **Key Concepts**: Priority queues, event handling.
    - **Solution**: [GitHub Repository tbd]()
 
-29. **Watchdog Timer** ``timers``
+29. **Watchdog Timer** [`timers`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/timers)
    - **Description**: Implement a watchdog timer that monitors system health and resets the system if it becomes unresponsive.
    - **Key Concepts**: System monitoring, reset mechanisms, timers.
    - **Solution**: [GitHub Repository tbd]()
