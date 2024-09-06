@@ -18,9 +18,10 @@
    - **Key Concepts**: Circular buffers, pointers, queue management.
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/CircularQueue)
 
-### 4. **Malloc Implementation** ``Memory Management``
+4. **Malloc Implementation** ``Memory Management``
    - **Description**: Implement your own version of `malloc` and `free` for dynamic memory allocation.
    - **Key Concepts**: Memory management, heap allocation, memory fragmentation.
+   - **Solution**: [GitHub Repository]()
 
 ### 5. **Queue to Stack Conversion** ``data_structures``
    - **Description**: Convert a queue to a stack using basic queue operations.
