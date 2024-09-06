@@ -43,23 +43,23 @@
    - **Description**: Design a bit bucket allocator to manage memory efficiently in fixed-size blocks.
    - **Key Concepts**: Memory allocation, bit manipulation, efficiency.
 
-### 11. **Double-Ended Queue (Deque)**
+### 11. **Double-Ended Queue (Deque)** ``data_structures``
    - **Description**: Implement a deque using arrays or linked lists, supporting insertion and removal from both ends.
    - **Key Concepts**: Linked lists, dynamic arrays, deque operations.
 
-### 12. **Ring Buffer (Circular Buffer)**
+### 12. **Ring Buffer (Circular Buffer)** ``cache_buffer_management``
    - **Description**: Implement a circular buffer with efficient reading and writing operations.
    - **Key Concepts**: Buffer management, circular structure, memory efficiency.
 
-### 13. **Reference Counting**
+### 13. **Reference Counting** ``cache_buffer_management``
    - **Description**: Implement reference counting to manage object lifetimes in manual memory management.
    - **Key Concepts**: Memory management, object lifetime, reference handling.
 
-### 14. **Custom Memory Allocator**
+### 14. **Custom Memory Allocator** ``Memory Management``
    - **Description**: Design a custom memory allocator with support for `malloc`, `free`, and `realloc` functions.
    - **Key Concepts**: Dynamic memory, memory fragmentation, allocation strategies.
 
-### 15. **Cache Simulation**
+### 15. **Cache Simulation** ``cache_buffer_management``
    - **Description**: Simulate a cache system with different eviction policies like LRU, FIFO, etc.
    - **Key Concepts**: Cache management, eviction policies, memory access.
 
