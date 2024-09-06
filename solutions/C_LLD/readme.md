@@ -2,9 +2,11 @@
 
 ## Memory Management and Data Structures
 
-### 1. **LRU Cache** ``Memory Management``
+1. **LRU Cache** `Memory Management`
    - **Description**: Implement a Least Recently Used (LRU) cache to efficiently manage cache entries. The cache should discard the least recently used items when it exceeds its capacity.
    - **Key Concepts**: Hash maps, doubly linked lists, cache management.
+   - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/LRU_cache)
+
 
 ### 2. **Heap Implementation** ``Memory Management``
    - **Description**: Implement a binary heap for efficient priority queue management, supporting both min-heaps and max-heaps.
