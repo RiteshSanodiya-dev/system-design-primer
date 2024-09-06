@@ -8,7 +8,7 @@
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/LRU_cache)
 
 
-2. **Heap Implementation** ``Memory Management``
+2. **Heap Implementation** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Implement a binary heap for efficient priority queue management, supporting both min-heaps and max-heaps.
    - **Key Concepts**: Binary trees, heap operations, sorting.
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/binary_heap)
@@ -18,7 +18,7 @@
    - **Key Concepts**: Circular buffers, pointers, queue management.
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/CircularQueue)
 
-4. **Malloc Implementation** ``Memory Management``
+4. **Malloc Implementation** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Implement your own version of `malloc` and `free` for dynamic memory allocation.
    - **Key Concepts**: Memory management, heap allocation, memory fragmentation.
    - **Solution**: [GitHub Repository tbd]()
@@ -39,7 +39,7 @@
    - **Key Concepts**: Semaphores, mutexes, concurrency, multi-threading.
    - **Solution**: [GitHub Repository tbd]()
 
-8. **Memory Pool Allocation** ``Memory Management``
+8. **Memory Pool Allocation** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a memory pool that allocates and deallocates fixed-size memory blocks to optimize memory usage.
    - **Key Concepts**: Fixed-size block allocation, memory pooling, free lists.
    - **Solution**: [GitHub Repository tbd]()
@@ -49,7 +49,7 @@
    - **Key Concepts**: Hashing, collision resolution, dynamic memory.
    - **Solution**: [GitHub Repository tbd]()
 
-10. **Bit Bucket Allocator** ``Memory Management``
+10. **Bit Bucket Allocator** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a bit bucket allocator to manage memory efficiently in fixed-size blocks.
    - **Key Concepts**: Memory allocation, bit manipulation, efficiency.
    - **Solution**: [GitHub Repository tbd]()
@@ -69,7 +69,7 @@
    - **Key Concepts**: Memory management, object lifetime, reference handling.
    - **Solution**: [GitHub Repository tbd]()
 
-14. **Custom Memory Allocator** ``Memory Management``
+14. **Custom Memory Allocator** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a custom memory allocator with support for `malloc`, `free`, and `realloc` functions.
    - **Key Concepts**: Dynamic memory, memory fragmentation, allocation strategies.
    - **Solution**: [GitHub Repository tbd]()
@@ -79,7 +79,7 @@
    - **Key Concepts**: Cache management, eviction policies, memory access.
    - **Solution**: [GitHub Repository tbd]()
 
-16. **Garbage Collection Algorithm** ``Memory Management``
+16. **Garbage Collection Algorithm** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a simple mark-and-sweep garbage collection algorithm.
    - **Key Concepts**: Memory management, garbage collection, mark-and-sweep.
    - **Solution**: [GitHub Repository tbd]()
