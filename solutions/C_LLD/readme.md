@@ -59,12 +59,12 @@
    - **Key Concepts**: Linked lists, dynamic arrays, deque operations.
    - **Solution**: [GitHub Repository tbd]()
 
-12. **Ring Buffer (Circular Buffer)** ``cache_buffer_management``
+12. **Ring Buffer (Circular Buffer)** [`cache_buffer_management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management)
    - **Description**: Implement a circular buffer with efficient reading and writing operations.
    - **Key Concepts**: Buffer management, circular structure, memory efficiency.
    - **Solution**: [GitHub Repository tbd]()
 
-13. **Reference Counting** ``cache_buffer_management``
+13. **Reference Counting** [`cache_buffer_management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management)
    - **Description**: Implement reference counting to manage object lifetimes in manual memory management.
    - **Key Concepts**: Memory management, object lifetime, reference handling.
    - **Solution**: [GitHub Repository tbd]()
@@ -74,7 +74,7 @@
    - **Key Concepts**: Dynamic memory, memory fragmentation, allocation strategies.
    - **Solution**: [GitHub Repository tbd]()
 
-15. **Cache Simulation** ``cache_buffer_management``
+15. **Cache Simulation** [`cache_buffer_management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management)
    - **Description**: Simulate a cache system with different eviction policies like LRU, FIFO, etc.
    - **Key Concepts**: Cache management, eviction policies, memory access.
    - **Solution**: [GitHub Repository tbd]()
