@@ -37,3 +37,45 @@ void* malloc(size_t size);
 
 Where size is the requested `size`. The returned pointer should be `NULL` in case of failure (no space left).
 
+# 2. The Heap and the `brk` and `sbrk` Syscalls
+
+Prior to writing a first `malloc`, we need to understand how memory is managed in most multitask systems. We will maintain an abstract
+point of view for this section, as many details are system and hardware dependent.
+
+## 2.1 The Process’s Memory
+
+Each process has its own virtual address space dynamically translated into physical memory address space by the MMU (Memory Management Unit)
+and the kernel. This space is divided into several parts. All we need to know is that we find at least some space for the code, a stack where
+local and volatile data are stored, some space for constant and global variables, and an unorganized space for the program’s data called the heap.
+
+The heap is a continuous (in terms of virtual addresses) space of memory with three bounds:
+
+- A starting point
+- A maximum limit (managed through sys/resource.h’s functions `getrlimit(2)` and `setrlimit(2)`)
+- An end point called the **break**
+
+The break marks the end of the mapped memory space, which is the part of the virtual address space that corresponds to real memory. Figure 1 sketches the memory organization.
+
+![image](https://github.com/user-attachments/assets/dbf28fa0-2b4d-4309-ba66-40a53599d3d3)
+
+In order to code a `malloc`, we need to know where the heap begin and the break position, and of course we need to be able to move the break.
+This the purpose of the two syscalls `brk` and `sbrk`.
+
+## 2.2 `brk(2)` and `sbrk(2)`
+
+We can find the description of these syscalls in their manual pages:
+
+```c
+int brk(const void *addr);
+void* sbrk(intptr_t incr);
+```
+- `brk(2)` places the break at the given address `addr` and returns `0` if successful, `-1` otherwise. The global errno symbol indicates the
+   nature of the error.
+- `sbrk(2)` moves the break by the given increment (in bytes). Depending on system implementation, it returns the previous or the new break address.
+   On failure, it returns `(void *)-1` and sets `errno`. On some systems, `sbrk` accepts negative values (in order to free some mapped memory).
+
+Since `sbrk`'s specification does not fix the meaning of its result, we won’t use the returned value when moving the break. However, we can use a special case of `sbrk`: when the increment is zero (i.e., `sbrk(0)`), the returned value is the actual break address (the previous and new break addresses are the same). `sbrk` is thus used to retrieve the beginning of the heap, which is the initial position of the break.
+
+We will use sbrk as our main tool to implement malloc. All we need to do is acquire more space (if needed) to fulfill the query.
+
+
