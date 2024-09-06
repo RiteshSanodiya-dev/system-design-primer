@@ -13,6 +13,20 @@ The heap is primarily used in memory management for efficient priority queue ope
 - **Heap Operations**: Inserting a new element, deleting the root, heapifying up or down.
 - **Sorting**: Maintaining the heap property, which ensures the structure remains valid as elements are inserted or removed.
 
+### Key Points:
+1. **Complete Binary Tree**: The heap is a complete binary tree, meaning all levels are filled except possibly the last level, which is filled from left to right.
+2. **Heap Property**: 
+   - In a **min-heap**, for every node `i`:  
+     `arr[i] <= arr[2*i + 1]` and `arr[i] <= arr[2*i + 2]`
+   - In a **max-heap**, the inequality is reversed.
+
+### Formula for Accessing Elements in a Heap
+
+When a binary heap is stored in an array:
+- **Parent of a node** at index `i`: `parent(i) = (i - 1) / 2`
+- **Left child of a node** at index `i`: `left(i) = 2*i + 1`
+- **Right child of a node** at index `i`: `right(i) = 2*i + 2`
+
 ## Solution Explanation
 
 This solution implements a binary heap in C to manage memory efficiently. The heap supports both min-heaps and max-heaps, making it versatile for different use cases. The key operations supported by the heap are:
