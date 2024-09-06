@@ -74,11 +74,12 @@ Let's consider inserting elements into a **min-heap**. Initially, the heap is em
 
 Now, if we remove the root `3`, the heap is reorganized:
 
+```
          5
        /   \
      7      20
    /
  10
- 
+ ```
 
 - The new root is `5`, and the heapify-down operation ensures the heap property is maintained.
