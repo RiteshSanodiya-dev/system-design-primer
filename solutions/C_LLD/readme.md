@@ -13,7 +13,7 @@
    - **Key Concepts**: Binary trees, heap operations, sorting.
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/binary_heap)
 
-3. **Circular Data Structures** ``data_structures``
+3. **Circular Data Structures** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Implement circular data structures like circular queues or circular linked lists to manage bounded buffers or cyclic access patterns.
    - **Key Concepts**: Circular buffers, pointers, queue management.
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/CircularQueue)
@@ -23,12 +23,12 @@
    - **Key Concepts**: Memory management, heap allocation, memory fragmentation.
    - **Solution**: [GitHub Repository tbd]()
 
-5. **Queue to Stack Conversion** ``data_structures``
+5. **Queue to Stack Conversion** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Convert a queue to a stack using basic queue operations.
    - **Key Concepts**: Stack and queue operations, data manipulation.
    - **Solution**: [GitHub Repository tbd]()
 
-6. **Stack to Queue Conversion** ``data_structures``
+6. **Stack to Queue Conversion** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Convert a stack to a queue using basic stack operations.
    - **Key Concepts**: Queue and stack operations, data manipulation.
    - **Solution**: [GitHub Repository tbd]()
@@ -44,7 +44,7 @@
    - **Key Concepts**: Fixed-size block allocation, memory pooling, free lists.
    - **Solution**: [GitHub Repository tbd]()
 
-9. **Hash Map Design** ``data_structures``
+9. **Hash Map Design** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Design a hash map with efficient collision handling techniques like chaining or open addressing.
    - **Key Concepts**: Hashing, collision resolution, dynamic memory.
    - **Solution**: [GitHub Repository tbd]()
@@ -54,7 +54,7 @@
    - **Key Concepts**: Memory allocation, bit manipulation, efficiency.
    - **Solution**: [GitHub Repository tbd]()
 
-11. **Double-Ended Queue (Deque)** ``data_structures``
+11. **Double-Ended Queue (Deque)** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Implement a deque using arrays or linked lists, supporting insertion and removal from both ends.
    - **Key Concepts**: Linked lists, dynamic arrays, deque operations.
    - **Solution**: [GitHub Repository tbd]()
@@ -84,7 +84,7 @@
    - **Key Concepts**: Memory management, garbage collection, mark-and-sweep.
    - **Solution**: [GitHub Repository tbd]()
 
-17. **Red-Black Tree / AVL Tree** ``data_structures``
+17. **Red-Black Tree / AVL Tree** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Implement a self-balancing binary search tree to optimize lookup, insertion, and deletion operations.
    - **Key Concepts**: Tree balancing, binary search trees, rotations.
    - **Solution**: [GitHub Repository tbd]()
