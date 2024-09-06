@@ -13,9 +13,10 @@
    - **Key Concepts**: Binary trees, heap operations, sorting.
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/binary_heap)
 
-### 3. **Circular Data Structures** ``data_structures``
+3. **Circular Data Structures** ``data_structures``
    - **Description**: Implement circular data structures like circular queues or circular linked lists to manage bounded buffers or cyclic access patterns.
    - **Key Concepts**: Circular buffers, pointers, queue management.
+   - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/CircularQueue)
 
 ### 4. **Malloc Implementation** ``Memory Management``
    - **Description**: Implement your own version of `malloc` and `free` for dynamic memory allocation.
