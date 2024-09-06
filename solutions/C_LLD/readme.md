@@ -8,9 +8,10 @@
    - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/LRU_cache)
 
 
-### 2. **Heap Implementation** ``Memory Management``
+2. **Heap Implementation** ``Memory Management``
    - **Description**: Implement a binary heap for efficient priority queue management, supporting both min-heaps and max-heaps.
    - **Key Concepts**: Binary trees, heap operations, sorting.
+   - **Solution**: [GitHub Repository](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/binary_heap)
 
 ### 3. **Circular Data Structures** ``data_structures``
    - **Description**: Implement circular data structures like circular queues or circular linked lists to manage bounded buffers or cyclic access patterns.
