@@ -42,7 +42,7 @@
 8. **Memory Pool Allocation** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a memory pool that allocates and deallocates fixed-size memory blocks to optimize memory usage.
    - **Key Concepts**: Fixed-size block allocation, memory pooling, free lists.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/memory_pool)
 
 9. **Hash Map Design** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Design a hash map with efficient collision handling techniques like chaining or open addressing.
