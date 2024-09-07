@@ -62,7 +62,7 @@
 12. **Ring Buffer (Circular Buffer)** [`cache_buffer_management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management)
    - **Description**: Implement a circular buffer with efficient reading and writing operations.
    - **Key Concepts**: Buffer management, circular structure, memory efficiency.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management/ring_buffer)
 
 13. **Reference Counting** [`cache_buffer_management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management)
    - **Description**: Implement reference counting to manage object lifetimes in manual memory management.
