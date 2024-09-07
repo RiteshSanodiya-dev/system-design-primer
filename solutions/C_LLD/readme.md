@@ -31,7 +31,7 @@
 6. **Stack to Queue Conversion** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Convert a stack to a queue using basic stack operations.
    - **Key Concepts**: Queue and stack operations, data manipulation.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/stack_to_queue)
 
 7. **Synchronization Problems** [`multithreading_synchronization`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/multithreading_synchronization)
    - **a. Readers-Writers Problem**: Design a solution for managing shared resource access between multiple readers and writers.
