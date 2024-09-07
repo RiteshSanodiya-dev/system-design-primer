@@ -726,7 +726,6 @@ All that's needed now is to integrate modifications done to the block structure 
 - Redefine `BLOCK_SIZE`
 
 
-```c
 ### Block Structure and Functions
 
 ```c
