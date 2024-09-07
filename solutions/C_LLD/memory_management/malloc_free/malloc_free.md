@@ -292,6 +292,7 @@ For now, it is defined as:
 
 ```c
 #define BLOCK_SIZE sizeof(struct s_block)
+```
 
 Nothing surprising in this code. We just return `NULL` if `sbrk` fails (and we don’t try to understand why). Note also that since we’re
 not sure that `sbrk` returns the previous break, we first save it and then move the break. We could have computed it using `last` and
