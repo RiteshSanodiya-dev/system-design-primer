@@ -21,7 +21,7 @@
 4. **Malloc Implementation** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Implement your own version of `malloc` and `free` for dynamic memory allocation.
    - **Key Concepts**: Memory management, heap allocation, memory fragmentation.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/malloc_free)
 
 5. **Queue to Stack Conversion** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Convert a queue to a stack using basic queue operations.
