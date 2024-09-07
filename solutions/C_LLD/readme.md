@@ -1,6 +1,6 @@
-# C Programming Low-Level Design (LLD) Interview Questions
+## C Programming Low-Level Design (LLD) Interview Questions
 
-## Memory Management and Data Structures
+### Memory Management and Data Structures
 
 1. **LRU Cache** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Implement a Least Recently Used (LRU) cache to efficiently manage cache entries. The cache should discard the least recently used items when it exceeds its capacity.
@@ -57,7 +57,7 @@
 11. **Double-Ended Queue (Deque)** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Implement a deque using arrays or linked lists, supporting insertion and removal from both ends.
    - **Key Concepts**: Linked lists, dynamic arrays, deque operations.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/double_ended_queue)
 
 12. **Ring Buffer (Circular Buffer)** [`cache_buffer_management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management)
    - **Description**: Implement a circular buffer with efficient reading and writing operations.
