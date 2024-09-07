@@ -37,7 +37,7 @@
    - **a. Readers-Writers Problem**: Design a solution for managing shared resource access between multiple readers and writers.
    - **b. Producer-Consumer Problem**: Implement a synchronization mechanism to handle a shared buffer between producers and consumers.
    - **Key Concepts**: Semaphores, mutexes, concurrency, multi-threading.
-   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/multithreading_synchronization)
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/multithreading_synchronization/synchronizations)
 
 8. **Memory Pool Allocation** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a memory pool that allocates and deallocates fixed-size memory blocks to optimize memory usage.
