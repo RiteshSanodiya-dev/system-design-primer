@@ -1,6 +1,6 @@
 ## Synchronization and Multithreading
 
-### Readers-Writers Problem
+#### Readers-Writers Problem
 Solve the readers-writers synchronization problem using semaphores or mutexes.
 
 **Key Concepts:**
