@@ -1,6 +1,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <stddef.h>
+#include <stdio.h>
 
 /* Define the block size since sizeof will be wrong */
 #define BLOCK_SIZE 20
