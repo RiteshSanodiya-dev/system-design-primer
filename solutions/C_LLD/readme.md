@@ -26,7 +26,7 @@
 5. **Queue to Stack Conversion** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Convert a queue to a stack using basic queue operations.
    - **Key Concepts**: Stack and queue operations, data manipulation.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/queue_to_stack)
 
 6. **Stack to Queue Conversion** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Convert a stack to a queue using basic stack operations.
