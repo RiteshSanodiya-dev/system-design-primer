@@ -47,7 +47,7 @@
 9. **Hash Map Design** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Design a hash map with efficient collision handling techniques like chaining or open addressing.
    - **Key Concepts**: Hashing, collision resolution, dynamic memory.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures/hash_map)
 
 10. **Bit Bucket Allocator** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a bit bucket allocator to manage memory efficiently in fixed-size blocks.
