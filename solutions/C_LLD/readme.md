@@ -52,7 +52,7 @@
 10. **Bit Bucket Allocator** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a bit bucket allocator to manage memory efficiently in fixed-size blocks.
    - **Key Concepts**: Memory allocation, bit manipulation, efficiency.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/bit_bucket_alloc)
 
 11. **Double-Ended Queue (Deque)** [`data_structures`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/data_structures)
    - **Description**: Implement a deque using arrays or linked lists, supporting insertion and removal from both ends.
