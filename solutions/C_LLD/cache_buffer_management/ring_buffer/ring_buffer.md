@@ -1,5 +1,7 @@
 # Ring Buffer (Circular Buffer)
 
+see reference, contains other topics as well : https://inpyjama.com/dealing-with-real-time-data/
+
 #### Description
 A ring buffer, also known as a circular buffer, is a fixed-size data structure that uses a single, continuous buffer for reading and writing operations in a circular manner. It allows efficient use of memory and is especially useful in scenarios where data needs to be overwritten periodically, without the need for shifting data after every operation.
 
