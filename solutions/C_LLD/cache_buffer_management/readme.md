@@ -1,4 +1,4 @@
-# Cache and Buffer Management
+### Cache and Buffer Management
 
 - **Cache Simulation**: Simulate the behavior of different caching mechanisms (e.g., LRU, FIFO).
 
