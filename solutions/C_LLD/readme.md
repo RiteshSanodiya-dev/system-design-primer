@@ -72,7 +72,7 @@
 14. **Custom Memory Allocator** [`Memory Management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management)
    - **Description**: Design a custom memory allocator with support for `malloc`, `free`, and `realloc` functions.
    - **Key Concepts**: Dynamic memory, memory fragmentation, allocation strategies.
-   - [**solution tbd**]()
+   - [**solution**](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/memory_management/malloc_free)
 
 15. **Cache Simulation** [`cache_buffer_management`](https://github.com/RiteshSanodiya-dev/system-design-primer/tree/master/solutions/C_LLD/cache_buffer_management)
    - **Description**: Simulate a cache system with different eviction policies like LRU, FIFO, etc.
