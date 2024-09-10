@@ -22,7 +22,7 @@ typedef struct {
  *  Size: X  (where X is the current number of elements)
  */
 
-void initializeBuffer(circular_buffer* cb) {
+void initializeBuffer(CircularBuffer* cb) {
     cb->head = 0; // Points to the position for inserting the latest data
     cb->tail = 0; // Points to the position of the oldest data in the buffer
     cb->size = 0; // Tracks the number of elements currently in the buffer
