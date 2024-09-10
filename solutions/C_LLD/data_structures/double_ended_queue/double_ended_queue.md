@@ -80,3 +80,103 @@ Elements can be added or removed from both the front and the rear.
 #### Get Front/Rear:
 - **Front**: Retrieves the element at the front of the deque without removing it.
 - **Rear**: Retrieves the element at the rear of the deque without removing it.
+
+
+
+# Visualization of `insert_front` Function
+
+Let's visualize the operations of the `insert_front` function with a diagram. We'll illustrate both scenarios: inserting into an empty deque and inserting into a non-empty deque.
+
+## Scenario 1: Inserting into an Empty Deque
+
+Initially, the deque is empty:
+
+```
+Deque:
++-------+
+|       |  (front, rear are NULL)
++-------+
+```
+
+When we call `insert_front(deque, 10)`, the function creates a new node with the data 10. Since the deque is empty, both the front and the rear will point to this new node:
+
+
+```
+Deque after inserting 10:
++-------+
+|   10  |  
++-------+
+(front, rear -> newNode)
+```
+
+## Scenario 2: Inserting into a Non-Empty Deque
+
+Now let's assume we already have one node in the deque, and we want to insert another value at the front. The deque currently looks like this:
+
+```
+Deque:
++-------+
+|   10  |  <---- front, rear
++-------+
+```
+
+When we call `insert_front(deque, 20)`, the following steps occur:
+
+### Create a new node for 20:
+
+```
+   newNode: 
+   +-------+
+   |   20  |  
+   +-------+
+```
+
+### Update the pointers in the deque:
+- Set `newNode->next` to point to the current front (which contains 10):
+
+```
+    newNode->next -> +-------+
+                     |   10  |
+                     +-------+
+```
+
+- Update the `prev` pointer of the current front node (10) to point back to the new node (20):
+``
+    deque->front->prev -> +-------+
+                          |   20  |
+                          +-------+
+``
+- Update the front of the deque to point to the new node:
+
+```
+   Deque after inserting 20:
+   +-------+       +-------+
+   |   20  | ---> |   10  |  
+   +-------+       +-------+
+   (front)          (rear)
+```
+
+## Final Representation
+
+After inserting 20, the deque is structured like this:
+
+```
+Deque:
++-------+       +-------+
+|   20  |  <--> |   10  |  
++-------+       +-------+
+(front)          (rear)
+```
+
+## Summary of Diagram
+
+- In **Scenario 1**, the deque was empty and the new node became both the front and rear.
+- In **Scenario 2**, the new node was added to the front, and the existing front node's pointers were updated to maintain the doubly linked structure.
+
+## Notation
+
+- **next**: Points to the next node in the sequence.
+- **prev**: Points to the previous node in the sequence.
+- The arrows (`--->`) indicate the direction of the pointers, showing how each node links to the others.
+
+This visualization should give you a clearer understanding of how the `insert_front` function behaves in a doubly linked deque structure. If you have further questions or need more details, feel free to ask!
