@@ -52,7 +52,9 @@ Deques can be used in graph traversal (BFS) or tree traversal algorithms, as bot
 
 ### Diagrammatic Representation:
 
+```
     Front <--- [1, 2, 3, 4] ---> Rear
+```
 
     Elements can be added or removed from both the front and the rear.
 
