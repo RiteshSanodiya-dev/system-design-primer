@@ -10,11 +10,22 @@ typedef struct {
     int size;  // Current size of the buffer
 } CircularBuffer;
 
-// Function to initialize the circular buffer
-void initializeBuffer(CircularBuffer* cb) {
-    cb->head = 0;
-    cb->tail = 0;
-    cb->size = 0;
+/* Function to initialize the circular buffer
+ *
+ *   +-----------------------+
+ *   |   0   |   1   |   2   |  ...  |  BUFFER_SIZE - 1 |
+ *   +-----------------------+
+ *         ^                ^
+ *         |                |
+ *       tail             head
+ *
+ *  Size: X  (where X is the current number of elements)
+ */
+
+void initializeBuffer(circular_buffer* cb) {
+    cb->head = 0; // Points to the position for inserting the latest data
+    cb->tail = 0; // Points to the position of the oldest data in the buffer
+    cb->size = 0; // Tracks the number of elements currently in the buffer
 }
 
 // Function to check if the buffer is full
