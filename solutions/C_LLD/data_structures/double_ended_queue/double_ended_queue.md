@@ -83,11 +83,11 @@ Elements can be added or removed from both the front and the rear.
 
 
 
-# Visualization of `insert_front` Function
+### Visualization of `insert_front` Function
 
 Let's visualize the operations of the `insert_front` function with a diagram. We'll illustrate both scenarios: inserting into an empty deque and inserting into a non-empty deque.
 
-## Scenario 1: Inserting into an Empty Deque
+### Scenario 1: Inserting into an Empty Deque
 
 Initially, the deque is empty:
 
@@ -109,7 +109,7 @@ Deque after inserting 10:
 (front, rear -> newNode)
 ```
 
-## Scenario 2: Inserting into a Non-Empty Deque
+### Scenario 2: Inserting into a Non-Empty Deque
 
 Now let's assume we already have one node in the deque, and we want to insert another value at the front. The deque currently looks like this:
 
@@ -122,7 +122,7 @@ Deque:
 
 When we call `insert_front(deque, 20)`, the following steps occur:
 
-### Create a new node for 20:
+#### Create a new node for 20:
 
 ```
    newNode: 
@@ -156,7 +156,7 @@ When we call `insert_front(deque, 20)`, the following steps occur:
    (front)          (rear)
 ```
 
-## Final Representation
+### Final Representation
 
 After inserting 20, the deque is structured like this:
 
@@ -168,12 +168,12 @@ Deque:
 (front)          (rear)
 ```
 
-## Summary of Diagram
+### Summary of Diagram
 
 - In **Scenario 1**, the deque was empty and the new node became both the front and rear.
 - In **Scenario 2**, the new node was added to the front, and the existing front node's pointers were updated to maintain the doubly linked structure.
 
-## Notation
+### Notation
 
 - **next**: Points to the next node in the sequence.
 - **prev**: Points to the previous node in the sequence.
