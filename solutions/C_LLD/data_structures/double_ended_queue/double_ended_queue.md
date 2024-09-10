@@ -155,3 +155,54 @@ After inserting 20, the deque is structured like this:
 - The arrows (`--->`) indicate the direction of the pointers, showing how each node links to the others.
 
 This visualization should give you a clearer understanding of how the `insert_front` function behaves in a doubly linked deque structure. If you have further questions or need more details, feel free to ask!
+
+
+
+
+## deque visualisation
+
+### Node Structure
+
+```python
++------------------+
+|      Node 10     |
++------------------+
+| data: 10         |  <--- Contains the value 10.
+| next: ---------> |----> (Points to Node 20)
+| prev: NULL       |  <--- No prior node (it's the front)
++------------------+
+
++------------------+
+|      Node 20     |
++------------------+
+| data: 20         |  <--- Contains the value 20.
+| next: NULL       |  <--- No next node (it's the rear)
+| prev: <--------- |----> (Points back to Node 10)
++------------------+
+```
+
+### Deque Structure
+
+```python
++-------------------------+
+|         deque_t         |
++-------------------------+
+| front: (points to the   +--------->+------------------+
+|    node with value 10.  |          |      Node 10     |
+|                         |          +------------------+
+|                         |          | data: 10         |
+|                         |          | next: --->       |---------------> Node 20
+|                         |          | prev: NULL       |
+|                         |          +------------------+
+|                         |
+|                         |          +------------------+
+| rear: (points to the    +--------->|      Node 20     |
+|    node with value 20.  |          +------------------+
+|                         |          | data: 20         |
+|                         |          | next: NULL       |---------------> NULL (No next node, it's the rear)
+|                         |          | prev:  <---------|---------------> Node 10
++-------------------------+          +------------------+
+```
+
+
+
