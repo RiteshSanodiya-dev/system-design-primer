@@ -88,9 +88,9 @@ When we call `insert_front(deque, 10)`, the function creates a new node with the
 
 ```python
 Deque after inserting 10:
-+-------+
-|   10  |  
-+-------+
+  +-------+
+  |   10  |  
+  +-------+
 (front, rear -> newNode)
 ```
 
@@ -98,39 +98,39 @@ Deque after inserting 10:
 Now let's assume we already have one node in the deque, and we want to insert another value at the front. The deque currently looks like this:
 ```python
 Deque:
-+-------+
-|   10  |  <---- front, rear
-+-------+
+  +-------+
+  |   10  |  <---- front, rear
+  +-------+
 ```
 
 When we call `insert_front(deque, 20)`, the following steps occur:
 #### Create a new node for 20:
 ```python
    newNode: 
-   +-------+
-   |   20  |  
-   +-------+
+  +-------+
+  |   20  |  
+  +-------+
 ```
 
 ### Update the pointers in the deque:
 - Set `newNode->next` to point to the current front (which contains 10):
 ```python
-    newNode->next -> +-------+
-                     |   10  |
-                     +-------+
+  newNode->next -> +-------+
+                   |   10  |
+                   +-------+
 ```
 
 - Update the `prev` pointer of the current front node (10) to point back to the new node (20):
 ```python
-    deque->front->prev -> +-------+
-                          |   20  |
-                          +-------+
+  deque->front->prev -> +-------+
+                        |   20  |
+                        +-------+
 ```
 - Update the front of the deque to point to the new node:
 ```python
-   Deque after inserting 20:
+  Deque after inserting 20:
    +-------+       +-------+
-   |   20  | ---> |   10  |  
+   |   20  |  ---> |   10  |  
    +-------+       +-------+
    (front)          (rear)
 ```
@@ -138,11 +138,11 @@ When we call `insert_front(deque, 20)`, the following steps occur:
 ### Final Representation
 After inserting 20, the deque is structured like this:
 ```python
-Deque:
-+-------+       +-------+
-|   20  |  <--> |   10  |  
-+-------+       +-------+
-(front)          (rear)
+  Deque:
+  +-------+       +-------+
+  |   20  |  <--> |   10  |  
+  +-------+       +-------+
+  (front)          (rear)
 ```
 
 ### Summary of Diagram
