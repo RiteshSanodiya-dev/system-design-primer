@@ -1,4 +1,4 @@
-## Explanation:
+## ★ Explanation:
 
 #### Memory Pool:
 The memory pool is a pre-allocated array (`memory_pool`) divided into fixed-size blocks of `BLOCK_SIZE`. In this case, the pool size is 1024
@@ -22,7 +22,7 @@ You can extend this code with additional error handling, dynamic resizing, or su
 
 
 
-## Pictorial representation
+## ★ Pictorial representation
 
 **Memory Pool Visualization:**
 Imagine the memory pool visually as follows, with each # representing 10 bytes (1 block):
