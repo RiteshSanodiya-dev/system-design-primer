@@ -43,7 +43,7 @@ Imagine the memory pool visually as follows, with each # representing 10 bytes (
   ```c
    int block_index = ((char*)block1 - memory_pool) / BLOCK_SIZE;
   ```
-- ```c ((char*)block1 - memory_pool)``` evaluates to 0 - 0, which is 0.
+- `((char*)block1 - memory_pool) ` evaluates to 0 - 0, which is 0.
 - Therefore, `block_index = 0 / 10 = 0`.
     -It prints: `Block index: 0`.
   
