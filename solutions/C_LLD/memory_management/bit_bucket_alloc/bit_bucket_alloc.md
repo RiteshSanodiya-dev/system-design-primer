@@ -19,3 +19,39 @@ The `freeBlock` function marks a block as free by setting its corresponding bit 
 The bit array allows for efficient memory management with constant-time allocation and deallocation, making it ideal for managing fixed-size memory blocks. 
 
 You can extend this code with additional error handling, dynamic resizing, or support for larger memory pools to handle more complex scenarios.
+
+
+
+# Pictorial representation
+
+**Memory Pool Visualization:**
+Imagine the memory pool visually as follows, with each # representing 10 bytes (1 block):
+
+```python
+   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+   |---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|
+   | B1| B1| B1| B1| B1| B1| B1| B1| B1| B1| B2 | B2 | B2 | B2 | B2 | B2 | B2 | B2 | B2 | B2 |
+```
+
+**Execution of free_blocks(block1):**
+- The pointer `block1` points to the first block of the memory pool (`memory_pool[0]`).
+- In `free_blocks`, pointer arithmetic calculates:
+
+  ```c
+   int block_index = ((char*)block1 - memory_pool) / BLOCK_SIZE;
+  ```
+- ```c ((char*)block1 - memory_pool)``` evaluates to 0 - 0, which is 0.
+- Therefore, `block_index = 0 / 10 = 0`.
+    -It prints: `Block index: 0`.
+  
+**Execution of free_blocks(block2):**
+- The pointer `block2` points to the second block of the memory pool (`memory_pool[10]`).
+- Similarly, the calculation becomes: ```c int block_index = ((char*)block2 - memory_pool) / BLOCK_SIZE; ```
+    - `((char*)block2 - memory_pool)` evaluates to 10 - 0, which is 10.
+    - Therefore, `block_index = 10 / 10 = 1`.
+- It prints: `Block index: 1`.
+
+
+
+
+
