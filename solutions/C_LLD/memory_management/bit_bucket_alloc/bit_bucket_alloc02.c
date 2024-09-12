@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define POOL_SIZE 256//1024 (lets take some small value for now) // Total size of the memory pool
+#define POOL_SIZE 256  // Total size of the memory pool (using a small value for now, e.g., 1024 can be used later)
 #define BLOCK_SIZE 32                   // Size of each block
 #define NUM_BLOCKS (POOL_SIZE / BLOCK_SIZE) // Number of blocks in the pool
 #define BIT_ARRAY_SIZE ((NUM_BLOCKS + 7) / 8) // Number of bytes needed for bit array
