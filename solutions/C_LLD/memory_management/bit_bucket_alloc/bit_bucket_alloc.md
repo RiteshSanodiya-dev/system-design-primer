@@ -22,7 +22,7 @@ You can extend this code with additional error handling, dynamic resizing, or su
 
 
 
-## ★ Pictorial representation
+## ★ Pictorial Representation
 
 **Memory Pool Visualization:**
 Imagine the memory pool visually as follows, with each # representing 10 bytes (1 block):
